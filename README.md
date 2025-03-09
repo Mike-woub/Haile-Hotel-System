@@ -1,31 +1,32 @@
-Haile-Hotel-System
+# Haile-Hotel-System
 
 This project is a Web-Based Intelligent Hotel Management and Recipe Recommendation System for Haile Hotel Wolaita. It combines advanced hotel operation tools with a payment system and personalized recipe suggestions to streamline management and enhance the guest experience.
 
-Features
+## Features
 
-Guest Panel:
+### Guest Panel:
 
-Room Reservations
+#### Room Reservations
 Food Ordering
 Recipe Recommendation
 Billing and payment handling using Chapa Pay
 
-Admin Panel:
+#### Admin Panel:
 
 Manages users, rooms, and reports
-Head Chef Module:
+
+#### Head Chef Module:
 Manages orders and menu
 
-Waiter Module:
+#### Waiter Module:
 
 Takes orders, serves guests
 
-Finance Module:
+#### Finance Module:
 
 Manages transactions and financial reports
 
-Recipe Recommendation System
+### Recipe Recommendation System
 Personalized recipes for guests based on:
 
 Content-based filtering
@@ -34,34 +35,35 @@ Trending food orders
 
 Integrated through a Flask API
 
-Technologies Used
+## Technologies Used
 
-Frontend:
+### Frontend:
 
 Tailwind CSS
 CSS
 HTML
 JavaScript
 
-Backend:
+### Backend:
 
 PHP
 
-Database:
+## Database:
 
 MySQL (via XAMPP)
 
-Other Tools:
+## Other Tools:
 
 Composer
 Node.js
 
-Database Instructions
+## Database Instructions
 To set up the database:
 
 Import the haile.sql file from the database folder into PhpMyAdmin.
 
-Payment System Setup with Ngrok
+## Payment System Setup with Ngrok
+
 To integrate the payment system using Ngrok, follow these steps:
 
 Install Ngrok:
@@ -84,7 +86,7 @@ Test Payment Flow:
 
 Ensure that the payment system is properly updated and working with the new URL.
 
-Recipe Recommendation System Setup
+## Recipe Recommendation System Setup
 To set up and run the Flask API for the recipe recommendation system:
 
 Start the Flask API:
