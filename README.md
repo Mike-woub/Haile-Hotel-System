@@ -1,20 +1,20 @@
 Haile-Hotel-System
-This project is a Web-Based Intelligent Hotel Management and Recipe Recommendation System for Haile Hotel. It combines advanced hotel operation tools with a payment system and personalized recipe suggestions to streamline management and enhance the guest experience.
+
+This project is a Web-Based Intelligent Hotel Management and Recipe Recommendation System for Haile Hotel Wolaita. It combines advanced hotel operation tools with a payment system and personalized recipe suggestions to streamline management and enhance the guest experience.
 
 Features
-Hotel Management System
+
+Guest Panel:
+
 Room Reservations
-
 Food Ordering
-
+Recipe Recommendation
 Billing and payment handling using Chapa Pay
 
 Admin Panel:
 
 Manages users, rooms, and reports
-
 Head Chef Module:
-
 Manages orders and menu
 
 Waiter Module:
@@ -29,22 +29,18 @@ Recipe Recommendation System
 Personalized recipes for guests based on:
 
 Content-based filtering
-
 User past data
-
 Trending food orders
 
 Integrated through a Flask API
 
 Technologies Used
+
 Frontend:
 
 Tailwind CSS
-
 CSS
-
 HTML
-
 JavaScript
 
 Backend:
@@ -58,7 +54,6 @@ MySQL (via XAMPP)
 Other Tools:
 
 Composer
-
 Node.js
 
 Database Instructions
