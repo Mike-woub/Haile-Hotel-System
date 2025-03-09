@@ -1,0 +1,200 @@
+Transaction Ref: e27f4448ed17ee4bdcb3dd7dd48cb81b
+Email: soberlyhigh@gmail.com
+Amount: 5000
+Type ID: 1
+Check-in Date: 2025-01-18
+Check-out Date: 2025-01-21
+Payment successful: {"first_name":"Mikiyas","last_name":"Woubshet","email":"soberlyhigh@gmail.com","phone_number":null,"currency":"ETB","amount":5000,"charge":175,"mode":"test","method":"test","type":"API","status":"success","reference":"APZ4q3bTSBZDK","tx_ref":"e27f4448ed17ee4bdcb3dd7dd48cb81b","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-17T11:53:17.000000Z","updated_at":"2025-01-17T11:53:17.000000Z"}
+Transaction Ref: 6525582c8f79ad524737f9a559b7652e
+Email: soberlyhigh@gmail.com
+Amount: 5000
+Type ID: 1
+Check-in Date: 2025-01-25
+Check-out Date: 2025-01-29
+Payment successful: {"first_name":"Mikiyas","last_name":"Woubshet","email":"soberlyhigh@gmail.com","phone_number":null,"currency":"ETB","amount":5000,"charge":175,"mode":"test","method":"test","type":"API","status":"success","reference":"APDRt01GC2jDV","tx_ref":"6525582c8f79ad524737f9a559b7652e","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-17T12:00:28.000000Z","updated_at":"2025-01-17T12:00:28.000000Z"}
+Transaction Ref: 339203e8c3775d4655cab3cb8a9aa2f2
+Email: mahletteferi16@gmail.com
+Amount: 5000
+Type ID: 1
+Check-in Date: 2025-01-18
+Check-out Date: 2025-01-21
+Payment successful: {"first_name":"Mikiyas","last_name":"Woubshet","email":"mahletteferi16@gmail.com","phone_number":null,"currency":"ETB","amount":5000,"charge":175,"mode":"test","method":"test","type":"API","status":"success","reference":"AP5LKHtXQ1PjV","tx_ref":"339203e8c3775d4655cab3cb8a9aa2f2","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-17T14:02:22.000000Z","updated_at":"2025-01-17T14:02:22.000000Z"}
+Transaction Ref: 419dd8f622df6d5ae61c4b8d67de1da9
+Email: mahletteferi16@gmail.com
+Amount: 5000
+Type ID: 1
+Check-in Date: 2025-01-18
+Check-out Date: 2025-01-21
+Payment successful: {"first_name":"Mikiyas","last_name":"Woubshet","email":"mahletteferi16@gmail.com","phone_number":null,"currency":"ETB","amount":5000,"charge":175,"mode":"test","method":"test","type":"API","status":"success","reference":"APtEKPjNg8QXX","tx_ref":"419dd8f622df6d5ae61c4b8d67de1da9","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-17T14:15:55.000000Z","updated_at":"2025-01-17T14:15:55.000000Z"}
+Transaction Ref: feb52023496ac216896be0cecee1be07
+Email: Kminte94@gmail.com
+First Name: Mintesinot
+Last Name: Alemu
+Amount: 5000
+Type ID: 1
+Check-in Date: 2025-01-18
+Check-out Date: 2025-01-20
+Payment successful: {"first_name":"Mintesinot","last_name":"Alemu","email":"Kminte94@gmail.com","phone_number":null,"currency":"ETB","amount":5000,"charge":175,"mode":"test","method":"test","type":"API","status":"success","reference":"AP1OO5hQWxwGN","tx_ref":"feb52023496ac216896be0cecee1be07","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-17T17:49:32.000000Z","updated_at":"2025-01-17T17:49:32.000000Z"}
+Transaction Ref: f6f104d62ee5c6cac9e424f9d6a5b943
+Email: Kminte94@gmail.com
+First Name: Mintesinot
+Last Name: Alemu
+Amount: 5000
+Type ID: 1
+Check-in Date: 2025-01-18
+Check-out Date: 2025-01-22
+Payment successful: {"first_name":"Mintesinot","last_name":"Alemu","email":"Kminte94@gmail.com","phone_number":null,"currency":"ETB","amount":5000,"charge":175,"mode":"test","method":"test","type":"API","status":"success","reference":"APUhMzey0yG7s","tx_ref":"f6f104d62ee5c6cac9e424f9d6a5b943","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-17T18:51:56.000000Z","updated_at":"2025-01-17T18:51:56.000000Z"}
+Transaction Ref: 3f9a9bd6cb3b6d83f974c903095e4a94
+Email: Kminte94@gmail.com
+First Name: Mintesinot
+Last Name: Alemu
+Amount: 5000
+Type ID: 1
+Check-in Date: 2025-01-18
+Check-out Date: 2025-01-21
+Payment successful: {"first_name":"Mintesinot","last_name":"Alemu","email":"Kminte94@gmail.com","phone_number":null,"currency":"ETB","amount":5000,"charge":175,"mode":"test","method":"test","type":"API","status":"success","reference":"APdFmKgSlp0qw","tx_ref":"3f9a9bd6cb3b6d83f974c903095e4a94","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-17T19:39:30.000000Z","updated_at":"2025-01-17T19:39:30.000000Z"}
+Transaction Ref: 3f15038c28d85a4c4b7c292fb6ed2731
+Email: tekestealena283@gmail.com
+First Name: Tekeste
+Last Name: Alena
+Amount: 5000
+Type ID: 1
+Check-in Date: 2025-01-18
+Check-out Date: 2025-01-21
+Payment successful: {"first_name":"Tekeste","last_name":"Alena","email":"tekestealena283@gmail.com","phone_number":null,"currency":"ETB","amount":5000,"charge":175,"mode":"test","method":"test","type":"API","status":"success","reference":"APmM3DmQ56QfM","tx_ref":"3f15038c28d85a4c4b7c292fb6ed2731","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-17T20:35:42.000000Z","updated_at":"2025-01-17T20:35:42.000000Z"}
+Transaction Ref: 59539c16b25a2e59a5b7de9c3a5ff9f0
+Email: Kminte94@gmail.com
+First Name: Mintesinot
+Last Name: Alemu
+Amount: 5000
+Type ID: 1
+Check-in Date: 2025-01-18
+Check-out Date: 2025-01-20
+Payment successful: {"first_name":"Mintesinot","last_name":"Alemu","email":"Kminte94@gmail.com","phone_number":null,"currency":"ETB","amount":5000,"charge":175,"mode":"test","method":"test","type":"API","status":"success","reference":"AP40goj8JQMSq","tx_ref":"59539c16b25a2e59a5b7de9c3a5ff9f0","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-18T10:36:39.000000Z","updated_at":"2025-01-18T10:36:39.000000Z"}
+Transaction Ref: ab294ab3e584481c24175a709a928ddf
+Email: alazargirmachew10@gmail.com
+First Name: Alazar
+Last Name: Girmachew
+Amount: 5000
+Type ID: 1
+Check-in Date: 2025-01-19
+Check-out Date: 2025-01-22
+Payment successful: {"first_name":"Alazar","last_name":"Girmachew","email":"alazargirmachew10@gmail.com","phone_number":null,"currency":"ETB","amount":5000,"charge":175,"mode":"test","method":"test","type":"API","status":"success","reference":"APIqBCc5p3phO","tx_ref":"ab294ab3e584481c24175a709a928ddf","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-18T10:45:37.000000Z","updated_at":"2025-01-18T10:45:37.000000Z"}
+Transaction Ref: 9aa4a3a10f076941d8d74c7624ecf368
+Email: Kminte94@gmail.com
+First Name: Mintesinot
+Last Name: Alemu
+Amount: 13000.00
+Type ID: 1
+Check-in Date: 2025-01-18
+Check-out Date: 2025-01-20
+Payment successful: {"first_name":"Mintesinot","last_name":"Alemu","email":"Kminte94@gmail.com","phone_number":null,"currency":"ETB","amount":13000,"charge":455,"mode":"test","method":"test","type":"API","status":"success","reference":"APhQeCRpaOkiE","tx_ref":"9aa4a3a10f076941d8d74c7624ecf368","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-18T11:46:22.000000Z","updated_at":"2025-01-18T11:46:22.000000Z"}
+Transaction Ref: 5f0e84974dd0e156d9e2ebd5fa10e0e8
+Transaction Ref: df3849a8d591d2653c94b513e1391d9e
+Email: yohnnes13@gmail.com
+First Name: yohannes
+Last Name: Adane
+Amount: 11000.00
+Type ID: 2
+Check-in Date: 2025-01-22
+Check-out Date: 2025-01-24
+Payment successful: {"first_name":"yohannes","last_name":"Adane","email":"yohnnes13@gmail.com","phone_number":null,"currency":"ETB","amount":11000,"charge":385,"mode":"test","method":"test","type":"API","status":"success","reference":"APvsRiO2DsWBf","tx_ref":"df3849a8d591d2653c94b513e1391d9e","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-22T06:31:29.000000Z","updated_at":"2025-01-22T06:31:29.000000Z"}
+Transaction Ref: 4e9814e44060af44d34356f056db5cfb
+Email: Kminte94@gmail.com
+First Name: Mintesinot
+Last Name: Alemu
+Amount: 11000.00
+Type ID: 2
+Check-in Date: 2025-01-23
+Check-out Date: 2025-01-25
+Payment successful: {"first_name":"Mintesinot","last_name":"Alemu","email":"Kminte94@gmail.com","phone_number":null,"currency":"ETB","amount":11000,"charge":385,"mode":"test","method":"test","type":"API","status":"success","reference":"APEWwG0qJZYJd","tx_ref":"4e9814e44060af44d34356f056db5cfb","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-23T14:36:02.000000Z","updated_at":"2025-01-23T14:36:02.000000Z"}
+Transaction Ref: 632879fbbfaa7cff7a8f7937458c3bf7
+Email: mahletteferi16@gmail.com
+First Name: Mahlet
+Last Name: Teferi
+Amount: 16500.00
+Type ID: 2
+Check-in Date: 2025-01-24
+Check-out Date: 2025-01-27
+Payment successful: {"first_name":"Mahlet","last_name":"Teferi","email":"mahletteferi16@gmail.com","phone_number":null,"currency":"ETB","amount":16500,"charge":577.5,"mode":"test","method":"test","type":"API","status":"success","reference":"APstaMMai2YdN","tx_ref":"632879fbbfaa7cff7a8f7937458c3bf7","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-24T13:37:12.000000Z","updated_at":"2025-01-24T13:37:12.000000Z"}
+Transaction Ref: caee096b11d7a64621dc081e2da4847d
+Email: tekestealena283@gmail.com
+First Name: Tekeste
+Last Name: Alena
+Amount: 11000.00
+Type ID: 2
+Check-in Date: 2025-01-25
+Check-out Date: 2025-01-27
+Payment successful: {"first_name":"Tekeste","last_name":"Alena","email":"tekestealena283@gmail.com","phone_number":null,"currency":"ETB","amount":11000,"charge":385,"mode":"test","method":"test","type":"API","status":"success","reference":"APUMIqQeM3Z4q","tx_ref":"caee096b11d7a64621dc081e2da4847d","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-25T05:40:50.000000Z","updated_at":"2025-01-25T05:40:50.000000Z"}
+Transaction Ref: 4ddd15f6cd81e4d9f1fd8ad898cfa64a
+Email: temethanks7all@gmail.com
+First Name: Temesgen
+Last Name: Tadesse
+Amount: 11000.00
+Type ID: 2
+Check-in Date: 2025-01-25
+Check-out Date: 2025-01-27
+Payment successful: {"first_name":"Temesgen","last_name":"Tadesse","email":"temethanks7all@gmail.com","phone_number":null,"currency":"ETB","amount":11000,"charge":385,"mode":"test","method":"test","type":"API","status":"success","reference":"AP8sgkYnHiVJJ","tx_ref":"4ddd15f6cd81e4d9f1fd8ad898cfa64a","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-25T08:59:10.000000Z","updated_at":"2025-01-25T08:59:10.000000Z"}
+Transaction Ref: 491924e4f5266c374c25691686e9aa21
+Email: sisayderiba936@gmail.com
+First Name: Sisay
+Last Name: Deriba
+Amount: 7000.00
+Type ID: 1
+Check-in Date: 2025-01-25
+Check-out Date: 2025-01-26
+Payment successful: {"first_name":"Sisay","last_name":"Deriba","email":"sisayderiba936@gmail.com","phone_number":null,"currency":"ETB","amount":7000,"charge":245,"mode":"test","method":"test","type":"API","status":"success","reference":"APqkYTfLeG9gl","tx_ref":"491924e4f5266c374c25691686e9aa21","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-25T17:54:33.000000Z","updated_at":"2025-01-25T17:54:33.000000Z"}
+Transaction Ref: e692809835be49b9d3dfa376e2edc6b7
+Email: mikiyaswoubshet@gmail.com
+First Name: Mikiyas
+Last Name: Woubshet
+Amount: 11000.00
+Type ID: 2
+Check-in Date: 2025-01-25
+Check-out Date: 2025-01-27
+Payment successful: {"first_name":"Mikiyas","last_name":"Woubshet","email":"mikiyaswoubshet@gmail.com","phone_number":null,"currency":"ETB","amount":11000,"charge":385,"mode":"test","method":"test","type":"API","status":"success","reference":"APwedJFWmOClg","tx_ref":"e692809835be49b9d3dfa376e2edc6b7","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-25T19:16:12.000000Z","updated_at":"2025-01-25T19:16:12.000000Z"}
+Transaction Ref: 5a9cf44988825436b7cd88e294c3586f
+Email: tekestealena283@gmail.com
+First Name: Tekeste
+Last Name: Alena
+Amount: 11000.00
+Type ID: 3
+Check-in Date: 2025-01-27
+Check-out Date: 2025-01-29
+Payment successful: {"first_name":"Tekeste","last_name":"Alena","email":"tekestealena283@gmail.com","phone_number":null,"currency":"ETB","amount":11000,"charge":385,"mode":"test","method":"test","type":"API","status":"success","reference":"APKcevW28topr","tx_ref":"5a9cf44988825436b7cd88e294c3586f","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-26T19:10:36.000000Z","updated_at":"2025-01-26T19:10:36.000000Z"}
+Transaction Ref: e2592a770bd7311f4e32c66960ccb465
+Email: yared3113@gmail.com
+First Name: Yared
+Last Name: Tesfu
+Amount: 6500.00
+Type ID: 1
+Check-in Date: 2025-01-27
+Check-out Date: 2025-01-28
+Payment successful: {"first_name":"Yared","last_name":"Tesfu","email":"yared3113@gmail.com","phone_number":null,"currency":"ETB","amount":6500,"charge":227.5,"mode":"test","method":"test","type":"API","status":"success","reference":"APHHgGhVUxy5Z","tx_ref":"e2592a770bd7311f4e32c66960ccb465","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-27T04:37:58.000000Z","updated_at":"2025-01-27T04:37:58.000000Z"}
+Transaction Ref: 04c018499c7330b53c2b5b18a2565f88
+Email: Kminte94@gmail.com
+First Name: Mintesinot
+Last Name: Alemu
+Amount: 5000.00
+Type ID: 2
+Check-in Date: 2025-01-27
+Check-out Date: 2025-01-28
+Payment successful: {"first_name":"Mintesinot","last_name":"Alemu","email":"Kminte94@gmail.com","phone_number":null,"currency":"ETB","amount":5000,"charge":175,"mode":"test","method":"test","type":"API","status":"success","reference":"APaCvnk3ddkSH","tx_ref":"04c018499c7330b53c2b5b18a2565f88","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-27T09:56:21.000000Z","updated_at":"2025-01-27T09:56:21.000000Z"}
+Transaction Ref: caef44e42bb8f0bf3c4e4086aa4aa97d
+Email: techtalkeyob@gmail.com
+First Name: Eyob
+Last Name: Solomon
+Amount: 13000.00
+Type ID: 1
+Check-in Date: 2025-01-27
+Check-out Date: 2025-01-29
+Payment successful: {"first_name":"Eyob","last_name":"Solomon","email":"techtalkeyob@gmail.com","phone_number":null,"currency":"ETB","amount":13000,"charge":455,"mode":"test","method":"test","type":"API","status":"success","reference":"APBPYAuGqInPW","tx_ref":"caef44e42bb8f0bf3c4e4086aa4aa97d","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-27T10:30:33.000000Z","updated_at":"2025-01-27T10:30:33.000000Z"}
+Transaction Ref: b6cf731e10e5d19cd3951dc6b5025ab8
+Email: Kminte94@gmail.com
+First Name: Mintesinot
+Last Name: Alemu
+Amount: 6500.00
+Type ID: 1
+Check-in Date: 2025-01-27
+Check-out Date: 2025-01-28
+Payment successful: {"first_name":"Mintesinot","last_name":"Alemu","email":"Kminte94@gmail.com","phone_number":null,"currency":"ETB","amount":6500,"charge":227.5,"mode":"test","method":"test","type":"API","status":"success","reference":"APO4adW03DzWG","tx_ref":"b6cf731e10e5d19cd3951dc6b5025ab8","customization":{"title":"Room Booking","description":"Payment for room booking","logo":null},"meta":null,"created_at":"2025-01-27T11:10:25.000000Z","updated_at":"2025-01-27T11:10:25.000000Z"}

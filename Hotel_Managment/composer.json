@@ -1,0 +1,6 @@
+{
+    "require": {
+        "yaphet17/chapa": "^1.0",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

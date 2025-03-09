@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+    <style>
+        /* Toast styles */
+        .toast {
+            display: none;
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            z-index: 1000;
+            transition: opacity 0.5s, transform 0.5s;
+        }
+    </style>
+</head>
+<body class="dark:bg-slate-800 dark:text-white">
+    <header class="w-full sticky bg-slate-50 dark:bg-slate-700 top-0 z-10">
+        <section class="max-w-4xl mx-auto flex flex-row justify-between items-center p-4">
+            <div class="flex flex-row items-center gap-3">
+                <img src="img/Haile-Hotel-Wolaita-scaled.jpg" class="w-10 h-10 rounded-3xl" alt="">
+                <h1 class="text-3xl font-bold dark:text-white">Haile Hotel Wolaita</h1>
+            </div>
+            <div>
+                <nav class="hidden md:flex flex-row gap-8 text-2xl dark:text-white">
+                    <ul class="flex flex-row space-x-8 cursor-pointer">
+                        <li class="hover:text-orange-400 transition-colors"><a href="index.html">Home</a></li>
+                        <li class="hover:text-orange-400 transition-colors">About</li>
+                        <li class="hover:text-orange-400 transition-colors">Gallery</li>
+                        <li class="hover:text-orange-400 transition-colors">Contact</li>
+                    </ul>
+                </nav>
+                <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer">
+                    &#9776;
+                </button>
+            </div>
+        </section>
+    </header>
+
+    <main class="dark:bg-slate-900 max-w-sm m-auto mt-40 min-h-96 border border-green-900 rounded-3xl">
+        <div id="login-form">
+            <form id="loginForm" action="php/resources/handle_login.php" method="post">
+                <fieldset class="flex flex-col items-center gap-12">
+                    <h1 class="text-3xl text-cyan-400 mt-3 text-center underline decoration-white underline-offset-4">Login</h1>
+                    <p class="text-xl">
+                        <input type="email" id="email" placeholder="Email" name="email" class="rounded bg-slate-800 p-2 placeholder-white placeholder-opacity-100">
+                    </p>
+                    <p class="text-xl">
+                        <input type="password" id="pwd" name="password" placeholder="Password" class="rounded bg-slate-800 min-w-5 p-2 placeholder-white placeholder-opacity-100">
+                    </p>
+                    <p class="flex flex-col items-center gap-4 mb-4">
+                        <input type="submit" value="Login" class="text-cyan-500 text-2xl border border-green-700 rounded-xl p-3 hover:text-cyan-400 cursor-pointer">
+                        <a href="#" onclick="forward();" class="text-cyan-200 text-xs hover:text-cyan-100">Forgot Password?</a>
+                        <a href="signupg.html" class="text-cyan-200 text-xs hover:text-cyan-100">No account yet? Sign up</a>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <div id="toast" class="toast"></div>
+
+    <script>
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            toast.innerText = message;
+            toast.style.display = 'block';
+            toast.style.opacity = 1;
+            toast.style.transform = 'translateY(0)';
+
+            setTimeout(() => {
+                toast.style.opacity = 0;
+                toast.style.transform = 'translateY(-20px)';
+                setTimeout(() => {
+                    toast.style.display = 'none';
+                }, 500);
+            }, 3000); // Show for 3 seconds
+        }
+
+        function validate() {
+            const email = document.getElementById('email');
+            const pwd = document.getElementById('pwd');
+            const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+
+            if (email.value.length === 0) {
+                showToast("Email can't be empty");
+                email.focus();
+                return false;
+            } else if (!emailPattern.test(email.value)) {
+                showToast("Email is not valid");
+                email.focus();
+                return false;
+            } else if (pwd.value.length === 0) {
+                showToast("Password can't be empty");
+                pwd.focus();
+                return false;
+            }
+            return true;
+        }
+
+        function forward() {
+            const email = document.getElementById('email').value;
+            window.location.href = 'change_password_ui.php?email=' + encodeURIComponent(email);
+        }
+
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            if (!validate()) {
+                event.preventDefault(); // Prevent form submission if validation fails
+            }
+        });
+        document.getElementById('loginForm').addEventListener('submit', async function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    if (!validate()) {
+        return; // If validation fails, stop the process
+    }
+
+    const formData = new FormData(this);
+    const response = await fetch(this.action, {
+        method: 'POST',
+        body: formData
+    });
+
+    const data = await response.json();
+    showToast(data.message); // Show the response message
+
+    if (data.success) {
+        // Redirect if successful
+        setTimeout(() => {
+            window.location.href = data.redirect; // Redirect to the URL provided by the backend
+        }, 2000); // Redirect after 2 seconds
+    }
+});
+    </script>
+</body>
+</html>

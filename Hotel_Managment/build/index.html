@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Haile Hotel Wolaita</title>
+    <style> 
+    body{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/hh2.jpg); background-repeat: no-repeat; background-size: cover;
+    }
+    .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+    .video-background { 
+        position: absolute; 
+        top:0; 
+        left: 0; 
+        width: 100%; 
+        min-height: 100vh;
+        object-fit: cover; 
+        z-index: -1;
+     }
+     
+.video-overlay {
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;  /* This allows interactions to pass through to the video */
+}
+     
+     .section-relative {
+         position: relative; 
+         overflow: hidden;
+         } 
+     .section-content { 
+        position: relative; 
+        z-index: 1; 
+     }
+     .marquee { width: 100%; overflow: hidden; white-space: nowrap; box-sizing: border-box; } .marquee span { display: inline-block; 
+        font-family:cursive;
+        font-size: small;
+        margin-top: 20px;
+        padding-left: 100%; animation: marquee 10s linear infinite; } @keyframes marquee { 0% { transform: translate(0, 0); } 100% { transform: translate(-100%, 0); } }
+        .par{
+            font-family: cursive;
+
+        }
+        h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           
+        }
+      </style>
+</head>
+<body class="bg-slate-300 text-slate-950 dark:bg-slate-800 dark:text-white">
+    <Header class="w-full sticky  bg-slate-50 dark:bg-slate-700 top-0 z-10">
+        <section class="max-w-4xl mx-auto flex flex-row justify-between items-center p-4">
+            <a href="login.html" class="hidden lg:block cursor-pointer">Accounts</a>
+            <div class="flex flex-row items-center gap-3">
+                <img src="img/Haile-Hotel-Wolaita-scaled.jpg" class="w-10 h-10 rounded-3xl " alt="">
+                <h1 class="text-3xl font-bold dark:text-white">Haile Hotel Wolaita</h1>
+            </div> 
+            <div>
+                <nav class="hidden md:flex flex-row gap-8 text-2xl dark:text-white">
+                    
+                    <ul class="flex flex-row space-x-8 cursor-pointer">
+                        <li class="hover:text-orange-400 transition-colors">Home</li>
+                        <li class="hover:text-orange-400 transition-colors"><a href="about.html">About</a></li>
+                        <li class="hover:text-orange-400 transition-colors"><a href="gallery.html">Gallery</a></li>
+                        <li class="hover:text-orange-400 transition-colors"><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer">
+                    &#9776;
+                </button>
+        </div>
+        </section>
+        <section id="mobile-menu" class="absolute top-0 bg-black w-full text-5xl flex-col justify-content-center origin-top animate-open-menu hidden">
+         
+            <nav class="flex flex-col  min-h-screen items-center py-8" aria-label="mobile">
+                <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer">
+                    &#9776;
+                </button>
+                <nav>
+                    <ul class="flex flex-col space-x-8 cursor-pointer">
+                        <li class="hover:text-orange-400 transition-colors">Home</li>
+                        <li class="hover:text-orange-400 transition-colors">About</li>
+                        <li class="hover:text-orange-400 transition-colors">Gallery</li>
+                        <li class="hover:text-orange-400 transition-colors">Contact</li>
+                    </ul>
+                </nav>
+            </nav>
+        </section>
+    </Header>
+    <main>
+        <section class="">
+            <div class="video-container">
+            <video autoplay muted loop class="video-background"> <source src="img/Haile-Hotels-Wolaita-Home-Page.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+            <div class="video-overlay"></div>
+        </div>
+            <div class="marquee"> <span>Welcome to Haile Hotel Wolaita! Enjoy your stay with us.</span> </div>
+            <h1 class="text-center text-3xl">Haile Hotel Wolaita</h1>
+            <div class="min-h-screen grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 lg:gap-12 p-6 text-center">
+                <div class="hidden  pl-6 pr-6 md:hidden lg:flex lg:flex-col lg:items-end">
+                    <p class="lg:w-3/5 md:w-full w-full flex items-center justify-center">
+                        <span class="text-lg mb-3">Haile Hotel</span>
+                        <p class="par text-justify indent-8 tracking-wider sm:w-full lg:w-5/6 md:w-full text-sm lg:text-sm md:text-lg lg:leading-7 leading-6">
+                            Welcome to Haile Hotel Wolaita, a premier destination nestled in the heart of Wolaita Sodo. Our hotel offers a blend of modern luxury and traditional Ethiopian hospitality, ensuring a memorable stay for all our guests. Enjoy our well-appointed rooms, exquisite dining options, and top-notch amenities designed to cater to your every need. Whether you're here for business or leisure, our dedicated staff is committed to providing exceptional service and making your stay as comfortable as possible. Explore the vibrant culture and scenic beauty of Wolaita while experiencing the warmth and charm of Haile Hotel. We look forward to welcoming you and making your visit truly special.
+                        </p>
+                        
+                    </p>
+                </div>
+                <div class="hidden  pl-6 pr-6 md:hidden lg:flex lg:flex-col lg:items-end">
+                    <p class="sm:w-full">
+                        <span class="text-lg mb-3">Haile Hotel</span>
+                        <p class="par text-justify indent-8 tracking-wider sm:w-full lg:w-5/6 md:w-full text-sm lg:text-sm md:text-sm lg:leading-7 leading-6">
+                            At Haile Hotel Wolaita, we pride ourselves on offering a wide range of services to ensure a comfortable and enjoyable stay for our guests. Our luxurious rooms and suites are designed with your comfort in mind, featuring modern amenities and elegant decor. Enjoy a culinary journey at our on-site restaurant, where our chefs prepare a variety of local and international dishes to tantalize your taste buds. For those looking to relax and unwind, our spa and wellness center offers a range of treatments and therapies. Stay active with our state-of-the-art fitness center and outdoor swimming pool. We also provide excellent conference and event facilities, making us the perfect choice for business meetings, weddings, and other special occasions. Our dedicated staff is always on hand to assist with any requests and ensure your stay is truly memorable. Experience the best of hospitality at Haile Hotel Wolaita.
+                        </p>                        
+                    </p>
+                </div>
+
+                <div class="flex flex-col items-center pl-6 pr-6 lg:hidden">
+                    <p class="sm:w-full">
+                        <span class="text-lg mb-3">Haile Hotel both</span>
+                        <p class="par text-justify indent-8 tracking-wide w-full text-sm leading-7">
+                            Welcome to Haile Hotel Wolaita, a premier destination nestled in the heart of Wolaita Sodo, where modern luxury meets traditional Ethiopian hospitality. Our hotel ensures a memorable stay with well-appointed rooms, exquisite dining options, and top-notch amenities tailored to your every need. Whether you're visiting for business or leisure, our dedicated staff is committed to providing exceptional service, making your stay as comfortable as possible. Indulge in a culinary journey at our on-site restaurant, unwind at our spa and wellness center, or stay active in our state-of-the-art fitness center and outdoor swimming pool. With excellent conference facilities available, We look forward to welcoming you and making your visit truly special.
+                        </p>
+                    </p>
+                </div>
+            </div>
+            
+        </section>
+       
+        
+        <section id="services" class=" min-h-screen">
+            <h1 class="text-4xl text-center">Our Services</h1>
+            <div class=" grid grid-cols-1 md:grid-cols-griddy  justify-between mt-4 gap-4">
+            <!-- <div class="justify-center"> <a href="login.html" class="cursor-pointer">Accounts</a></div> -->
+        <div class="grid grid-cols-1 md:grid-cols-service gap-4  mx-auto md:mx-0 p-4 md:max-h-80 ">
+                <a href="rooms.php" class=" cursor-pointer hover:bg-cyan-50 flex flex-col  sm:max-h-80 items-center border border-slate-100 rounded-2xl drop-shadow-2xl  bg-lime-100 dark:text-black shadow-2xl transform transition-transform duration-300 hover:scale-105 ">
+
+                <img src="img/std.jpg" alt="" class="w-full sm:h-5/6 h-64 rounded-2xl">
+
+                    <p class="sm:mt-4">Rooms</p>
+                
+                </a>
+            <a class="cursor-pointer hover:bg-cyan-50 flex flex-col sm:max-h-80  items-center border border-slate-100 rounded-2xl drop-shadow-2xl  bg-lime-100 dark:text-black shadow-2xl transform transition-transform duration-300 hover:scale-105 ">
+
+                <img src="img/mh.jpg" alt="" class="w-full sm:h-5/6 h-64 rounded-2xl">
+            <p class="sm:mt-4">Meeting Hall</p>    
+            </a>
+            
+            <a href="restaurant.php" class="cursor-pointer hover:bg-cyan-50 flex flex-col  sm:max-h-80 items-center border border-slate-100 rounded-2xl drop-shadow-2xl  bg-lime-100 dark:text-black shadow-2xl transform transition-transform duration-300 hover:scale-105 ">
+                
+                <img src="img/rec.jpg" alt="" class="w-full sm:h-5/6 h-64 rounded-2xl">
+              <p class="sm:mt-4">Restaurant</p>  
+            </a>
+        
+        </div>
+            <div class="sm:max-h-80">
+                <h1 class="text-center text-xl">Available Services</h1>
+                <p class="ml-4 mr-4">
+                Explore the available rooms, menu, and metting hall and find one that suits you to your liking. we offer quailty rooms , foods and beverages , and afordable metting hall.
+                </p>
+
+            </div>
+            <div class="mt-10">
+                <h1 class="text-xl text-center">Other Services</h1>
+                <p class="ml-4 mr-4">We also offer a membership Gym , swimming pool. sauna and spa. with all those services refresh your self with what you need. our staff are well mannered and will respond to all your needs . we hope you an amazing stay with us, the one and only Haile Hotel Wolaita.</p>
+            </div>
+            <div class="mt-3 md:mt-14 items-center ml-4 mr-4">
+                <img src="img/beuty.jpg" alt="" class="rounded-xl max-w-xs mx-auto">
+            </div>
+        </div>
+        </section>
+<section id="destinations" class="max-w-7xl  min-h-screen m-auto">
+    <h1 class="text-4xl text-center">Destinations</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 justify-around mt-4 gap-12">
+
+        <div class="md:max-h-80 md:min-w-60 grid grid-cols-dest gap-3 overflow-hidden mx-3 cursor-pointer shadow-2xl transform transition-transform duration-300 hover:scale-105 rounded-2xl" >
+            
+            <h3 class="text-xl text-center m-auto w-full h-full ">
+                H<br>
+                A<br>I<br>L<br>E <br><br>G<br>R<br>A<br>N<br>D
+            </h3>
+            <img src="img/hg.jpg" alt="" class="rounded-xl w-full object-fill h-full">
+    
+        </div>
+        <hr class="block sm:hidden">
+        <div class="md:max-h-80 md:min-w-60   grid grid-cols-dest gap-3 overflow-hidden mx-3 cursor-pointer shadow-2xl transform transition-transform duration-300 hover:scale-105 rounded-2xl" >
+            
+            <h3 class="text-xl text-center m-auto w-full h-full mt-12">
+                H<br>
+                A<br>W<br>A<br>S<br>S<br>A
+            </h3>
+            <img src="img/hh.jpg" alt="" class="rounded-xl w-full h-full object-cover">
+    
+        </div>
+
+        <hr class="block sm:hidden">
+
+        <div class="md:max-h-80 md:min-w-60   grid grid-cols-dest gap-3 overflow-hidden mx-3 cursor-pointer shadow-2xl transform transition-transform duration-300 hover:scale-105 rounded-2xl" >
+            
+            <h3 class="text-xl text-center m-auto mt-6 w-full h-full ">
+                A<br>
+                R<br>B<br>A<br>M<br>I<br>N<br>C<br>H
+            </h3>
+            <img src="img/haile-resort-arba-minch.jpg" alt="" class="rounded-xl w-full h-full object-cover">
+    
+        </div>
+
+        <hr class="block sm:hidden">
+
+        <div class="md:max-h-80 md:min-w-60   grid grid-cols-dest gap-3 overflow-hidden mx-3 cursor-pointer shadow-2xl transform transition-transform duration-300 hover:scale-105 rounded-2xl" >
+            
+            <h3 class="text-xl text-center m-auto w-full h-full mt-12">
+                A<br>
+                D<br>A<br>M<br>A
+            </h3>
+            <img src="img/ha.jpg" alt="" class="rounded-xl w-full h-full object-cover">
+    
+        </div>
+
+        <hr class="block sm:hidden">
+
+        <div class="md:max-h-80 md:min-w-60   grid grid-cols-dest gap-3 overflow-hidden mx-3 cursor-pointer shadow-2xl transform transition-transform duration-300 hover:scale-105 rounded-2xl" >
+            
+            <h3 class="text-xl text-center m-auto w-full h-full mt-16 ">
+                Z<br>
+                I<br>W<br>A<br>Y
+            </h3>
+            <img src="img/hz.jpg" alt="" class="rounded-xl w-full h-full object-cover">
+    
+        </div>
+
+        <hr class="block sm:hidden">
+
+        <div class="md:max-h-80 md:min-w-60   grid grid-cols-dest gap-3 overflow-hidden mx-3 cursor-pointer shadow-2xl transform transition-transform duration-300 hover:scale-105 rounded-2xl" >
+            
+            <h3 class="text-xl text-center m-auto w-full h-full mt-12">
+                G<br>
+                O<br>N<br>D<br>A<br>R
+            </h3>
+            <img src="img/hgon.jpg" alt="" class="rounded-xl w-full h-full object-cover">
+    
+        </div>
+
+        <!-- <div class="min-h-96 border flex flex-row mt-4" >
+            <h3 class="text-xl">ArbaMinch</h3>
+        </div>
+        <div class="min-h-96 border flex flex-row mt-6" >
+            <h3 class="text-xl">Adama</h3>
+        </div>
+        <div class="min-h-96 border flex flex-row mt-8" >
+            <h3 class="text-xl">Ziway</h3>
+        </div>
+        <div class="min-h-96 border flex flex-row mt-10" >
+            <h3 class="text-xl">Gondar</h3>
+        </div> -->
+    </div>
+
+</section>
+
+<section id="haile" class="max-w-4xl min-h-screen mx-auto md:mt-24">
+<h1 class="text-4xl text-center mb-6   ">About Haile</h1>
+<div class="flex flex-col  md:grid lg:grid-cols-haile md:gap-6 gap-4">
+    <div class="mx-4 rounded-xl border border-green-700 sm:w-fit sm:mx-auto cursor-pointer shadow-2xl transform transition-transform duration-300 hover:scale-105">
+        <img src="img/haile-gebrselassie.jpg" alt="" class="lg:w-full w-full rounded-xl">
+    </div>
+    <div class="mx-4 text-justify" >
+        <p>Haile Gebresilassie is a renowned Ethiopian long-distance runner and the founder of Haile Hotel and Resorts. An Olympic champion and world record holder, he has inspired countless athletes with his dedication and perseverance. Beyond athletics, Haile has transformed the hospitality industry in Ethiopia, creating luxurious accommodations that reflect the country's rich culture and heritage. His commitment to excellence and community development is evident in every aspect of his ventures, making him a celebrated figure both in sports and business.</p>
+    </div>
+</div>
+</section>
+    </main>
+    <footer class="bg-slate-700 text-white text-xl" id="footer">
+        <section class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between">
+            <address>
+                <h2>Haile Hotel and Resorts.</h2>
+                Wolaita Sodo<br>
+                Around Ajip, 12345-5555<br>
+                Email: <a>HaileHotel@gmail.com</a><br>
+                Phone: <a href="tel:+1555555555">(555) 555-5555</a>
+            </address>
+            <nav class="hidden md:flex flex-col gap-2" aria-label="footer">
+                <a href="#rockets" class="hover:opacity-90">Home</a>
+                <a href="#testimonials" class="hover:opacity-90">About</a>
+                <a href="#Contact" class="hover:opacity-90">Contact Us</a>
+            </nav>
+            <div class="flex flex-col sm:gap-2">
+                <p class="text-right">Copyright &copy; <span id="year">2024</span></p>
+                <p class="text-right">All Rights Reserved</p>
+            </div>
+        </section>
+    </footer>
+
+    <script>
+        // Prevent going back to the previous page using the back button
+        console.log("hello");
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, window.location.href);
+            window.onload = function() {
+                // Clear the history
+                window.history.pushState(null, null, window.location.href);
+                window.onpopstate = function() {
+                    window.history.pushState(null, null, window.location.href);
+                };
+            };
+        }
+    </script>
+</body>
+</html>

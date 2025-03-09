@@ -1,0 +1,68 @@
+[
+    {
+        "user_id": 1,
+        "name": "SoberlyHigh",
+        "preferences": [
+            ""
+        ],
+        "order_history": []
+    },
+    {
+        "user_id": 2,
+        "name": "Yared",
+        "preferences": [
+            ""
+        ],
+        "order_history": [
+            "Chicken Salad"
+        ]
+    },
+    {
+        "user_id": 5,
+        "name": "mahlet",
+        "preferences": [
+            "appetizer"
+        ],
+        "order_history": [
+            "Chicken Salad",
+            "Home Special Salad"
+        ]
+    },
+    {
+        "user_id": 8,
+        "name": "Duni",
+        "preferences": [
+            ""
+        ],
+        "order_history": []
+    },
+    {
+        "user_id": 12,
+        "name": "Minte",
+        "preferences": [
+            "vegetarian"
+        ],
+        "order_history": [
+            "Avocado Salad"
+        ]
+    },
+    {
+        "user_id": 13,
+        "name": "Edu",
+        "preferences": [
+            ""
+        ],
+        "order_history": []
+    },
+    {
+        "user_id": 14,
+        "name": " Eyob sol",
+        "preferences": [
+            "vegetarian"
+        ],
+        "order_history": [
+            "Chicken Salad",
+            "Stir Fried Vegetable"
+        ]
+    }
+]

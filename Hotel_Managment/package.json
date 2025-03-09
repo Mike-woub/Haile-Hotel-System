@@ -1,0 +1,19 @@
+{
+  "name": "haile-hotel-wolaita-final-year-project",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.6.9"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

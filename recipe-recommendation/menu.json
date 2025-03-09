@@ -1,0 +1,1093 @@
+[
+    {
+        "dish_name": "Avocado Salad",
+        "ingredients": [
+            "fresh sliced avocado",
+            "shredded lettuce",
+            "julienne tomato",
+            "onion",
+            "green chili with garlic dressing"
+        ],
+        "price": 310,
+        "course": "cold appetizer",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Chicken Salad",
+        "ingredients": [
+            "marinated grilled small diced chicken",
+            "shredded lettuce",
+            "small diced onion",
+            "garlic",
+            "Tomato with tartar dressing"
+        ],
+        "price": 380,
+        "course": "cold appetizer",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Home Special Salad",
+        "ingredients": [
+            "cubed cut avocado",
+            "tomato",
+            "cucumber",
+            "onion",
+            "shredded lettuce",
+            "black and green olives",
+            "garlic and chopped parsley with lemon herbed dressing"
+        ],
+        "price": 320,
+        "course": "cold appetizer",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Mixed Salad",
+        "ingredients": [
+            "shredded lettuce",
+            "tomato",
+            "cucumber",
+            "green chili",
+            "carrot with vinaigrette dressing"
+        ],
+        "price": 255,
+        "course": "cold appetizer",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Tuna Salad",
+        "ingredients": [
+            "julienne cut of tomato",
+            "onion",
+            "cucumber",
+            "green chili",
+            "shredded lettuce",
+            "canned tuna",
+            "lemon vinaigrette dressing"
+        ],
+        "price": 255,
+        "course": "cold appetizer",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Carrot and Ginger Soup",
+        "ingredients": [
+            "blended carrot",
+            "ginger",
+            "garlic and onion simmered together and flavoured with hot sauce"
+        ],
+        "price": 255,
+        "course": "hot appetizer",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Chicken Cream Soup",
+        "ingredients": [
+            "creamy flavourful broth with small diced grilled chicken",
+            "table butter",
+            "garlic",
+            "milk"
+        ],
+        "price": 305,
+        "course": "hot appetizer",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Fish Soup",
+        "ingredients": [
+            "fish broth simmered with cuped tilapia fish",
+            "garlic",
+            "onion",
+            "coriander",
+            "celery",
+            "fish spice"
+        ],
+        "price": 290,
+        "course": "hot appetizer",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Minestrone Soup",
+        "ingredients": [
+            "small diced vegetables",
+            "carrot",
+            "zucchini",
+            "fresh beans",
+            "potato with pasta and simmered in an italian tomato broth"
+        ],
+        "price": 250,
+        "course": "hot appetizer",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Oven Baked Lasagna",
+        "ingredients": [
+            "home made cooked lasagna pastes",
+            "layered with bolognaise sauce and a creamy white sauce",
+            "topping with grated mozzarella cheese"
+        ],
+        "price": 670,
+        "course": "pasta dishes",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Penne Bolognaise Sauce",
+        "ingredients": [
+            "saute garlic",
+            "minced lean meat",
+            "fresh puree of tomato",
+            "tomato",
+            "garlic",
+            "onion",
+            "celery",
+            "oregano",
+            "basil",
+            "bay leaf"
+        ],
+        "price": 400,
+        "course": "pasta dishes",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Penne Chicken Cream Sauce",
+        "ingredients": [
+            "marinated grilled chicken",
+            "table butter",
+            "milk",
+            "flour",
+            "mushroom",
+            "garlic",
+            "spaghetti"
+        ],
+        "price": 510,
+        "course": "pasta dishes",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Penne Tomato Sauce",
+        "ingredients": [
+            "fresh puree of tomato",
+            "garlic",
+            "onion",
+            "celery",
+            "oregano",
+            "basil",
+            "rosemary"
+        ],
+        "price": 350,
+        "course": "pasta dishes",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Penne Vegetable Sauce",
+        "ingredients": [
+            "plain boiled penne sauteed with seasonal fresh vegetables",
+            "carrot",
+            "zucchini",
+            "french beans",
+            "spinach",
+            "mushroom",
+            "onion",
+            "garlic",
+            "tomato"
+        ],
+        "price": 350,
+        "course": "pasta dishes",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Rice Bolognaise Sauce",
+        "ingredients": [
+            "saute garlic",
+            "minced lean meat",
+            "fresh puree of tomato",
+            "garlic",
+            "onion",
+            "celery",
+            "oregano",
+            "basil",
+            "bay leaf",
+            "rice"
+        ],
+        "price": 400,
+        "course": "pasta dishes",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Rice Chicken Cream Sauce",
+        "ingredients": [
+            "marinated grilled chicken",
+            "table butter",
+            "milk",
+            "flour",
+            "mushroom",
+            "garlic",
+            "rice"
+        ],
+        "price": 510,
+        "course": "pasta dishes",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Rice Tomato Sauce",
+        "ingredients": [
+            "fresh puree of tomato",
+            "garlic",
+            "onion",
+            "celery",
+            "oregano",
+            "basil",
+            "rosemary",
+            "rice"
+        ],
+        "price": 255,
+        "course": "pasta dishes",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Rice Vegetable Sauce",
+        "ingredients": [
+            "plain boiled basmati rice sauteed with seasonal fresh vegetables",
+            "carrot",
+            "zucchini",
+            "fresh beans",
+            "spinach",
+            "mushroom",
+            "onion",
+            "garlic",
+            "tomato"
+        ],
+        "price": 350,
+        "course": "pasta dishes",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Spaghetti Bolognaise Sauce",
+        "ingredients": [
+            "saute garlic",
+            "minced lean meat",
+            "fresh puree of tomato",
+            "garlic",
+            "onion",
+            "celery",
+            "oregano",
+            "basil",
+            "bay leaf",
+            "spaghetti"
+        ],
+        "price": 400,
+        "course": "pasta dishes",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Spaghetti Chicken Cream Sauce",
+        "ingredients": [
+            "marinated grilled chicken",
+            "table butter",
+            "milk",
+            "flour",
+            "mushroom",
+            "garlic",
+            "spaghetti"
+        ],
+        "price": 510,
+        "course": "pasta dishes",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Spaghetti Tomato Sauce",
+        "ingredients": [
+            "fresh puree of tomato",
+            "garlic",
+            "onion",
+            "celery",
+            "oregano",
+            "basil",
+            "rosemary",
+            "spaghetti"
+        ],
+        "price": 350,
+        "course": "pasta dishes",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Spaghetti Vegetable sauce",
+        "ingredients": [
+            "plain boiled spaghetti sauteed with seasonal fresh vegetables",
+            "carrot",
+            "zucchini",
+            "fresh beans",
+            "spinach",
+            "mushroom",
+            "onion",
+            "garlic",
+            "tomato"
+        ],
+        "price": 350,
+        "course": "pasta dishes",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Chicken Ala King",
+        "ingredients": [
+            "marinated grilled chicken",
+            "spaghetti or penne",
+            "cream mushroom sauce"
+        ],
+        "price": 660,
+        "course": "chicken corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Chicken Curry Masala",
+        "ingredients": [
+            "cubed chicken breast",
+            "garlic",
+            "onion",
+            "ginger",
+            "coriander",
+            "hot chili",
+            "curry masala sauce",
+            "plain boiled rice",
+            "indian chapatti bread"
+        ],
+        "price": 580,
+        "course": "chicken corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Chicken Fajitas",
+        "ingredients": [
+            "juicy chicken",
+            " sweet chili sauce",
+            "garlic",
+            "green chili",
+            "tomato",
+            "tortilla bread",
+            "mayonnaise",
+            "guacamole(mashed avocado stir in onion",
+            "garlic",
+            "tomato",
+            "and lime juice)",
+            "served on iron plate"
+        ],
+        "price": 685,
+        "course": "chicken corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Grilled Chicken Breast",
+        "ingredients": [
+            "marinated chicken breast grilled both sides",
+            "brown mushroom sauce",
+            "creamy mushed potato",
+            "seasonal cooked vegetables"
+        ],
+        "price": 600,
+        "course": "chicken corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Beef Cordon Blue",
+        "ingredients": [
+            "breaded beef fillet steak ",
+            "sliced provolone cheese",
+            "smoked chicken",
+            "deep fried in hot fat",
+            "rice",
+            "vegetables"
+        ],
+        "price": 735,
+        "course": "beef corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Beef Pepper Steak",
+        "ingredients": [
+            "garlic and soy marinated flat steak",
+            "crushed pepper",
+            "green salad",
+            "vinaigrette dressing",
+            "french fries"
+        ],
+        "price": 595,
+        "course": "beef corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Mixed Grill with Vegetable Rice",
+        "ingredients": [
+            "assortment of grilled meats",
+            "mini beef fillet steak",
+            "fillet of perch and chicken breast",
+            "creamy mushed potato",
+            "steamed cooked vegetables"
+        ],
+        "price": 795,
+        "course": "beef corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Sizzled Beef Steak",
+        "ingredients": [
+            "flat grilled beef fillet",
+            "brown sauce",
+            "served on iron plate",
+            "english chips"
+        ],
+        "price": 645,
+        "course": "beef corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Fish Cutlet",
+        "ingredients": [
+            "marinated tilapia fish",
+            "flour",
+            "egg",
+            "bread crumps",
+            "deep fried in hot fat",
+            "french fries"
+        ],
+        "price": 425,
+        "course": "fish corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Fish Gulash",
+        "ingredients": [
+            "cubed cut marinated tilapia fish",
+            "deep fried in hot fat",
+            "onion",
+            "tomato",
+            "green chili mixed in tomato sauce",
+            "plain boiled rice"
+        ],
+        "price": 395,
+        "course": "fish corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Grilled Nile Perch",
+        "ingredients": [
+            "herb infused grilled nile perch fillet",
+            "lemon",
+            "garlic",
+            "parsley",
+            "butter sauce",
+            "roasted wedge potato",
+            "steamed seasonal vegetables"
+        ],
+        "price": 635,
+        "course": "fish corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Grilled Tilapia Fish",
+        "ingredients": [
+            "grilled fillet of nile perch fillet marinated",
+            "garlic",
+            "lemon",
+            "coriander",
+            "french fries"
+        ],
+        "price": 480,
+        "course": "fish corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Beef Burger",
+        "ingredients": [
+            "ground beef",
+            "onion",
+            "garlic",
+            "leek",
+            "egg",
+            "bread crumps",
+            "soy sauce",
+            "salt",
+            "pepper",
+            "french fries",
+            "grilled both side until cooked stuffed in burger bread"
+        ],
+        "price": 535,
+        "course": "snacks corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Cheese Burger",
+        "ingredients": [
+            "ground beef",
+            "onion",
+            "garlic",
+            "leek",
+            "egg",
+            "bread crumps",
+            "soy sauce",
+            "salt",
+            "pepper",
+            "french fries",
+            "sliced provolone cheese",
+            "grilled both side until cooked stuffed in burger bread"
+        ],
+        "price": 545,
+        "course": "snacks corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Chicken Burger",
+        "ingredients": [
+            "minced chicken meat",
+            "onion",
+            "garlic",
+            "leek",
+            "egg",
+            "bread crumps",
+            "soy sauce",
+            "salt",
+            "pepper",
+            "french fries",
+            "sliced provolone cheese",
+            "grilled both side until cooked stuffed in burger bread"
+        ],
+        "price": 685,
+        "course": "snacks corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Egg Sandwich",
+        "ingredients": [
+            "flat egg omelet",
+            "baguette bread",
+            "ketchup",
+            "mayonnaise",
+            "french fries"
+        ],
+        "price": 320,
+        "course": "snacks corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Fish and Chips",
+        "ingredients": [
+            "marinated tilapia fish",
+            "beer batter",
+            "deep fried in hot oil",
+            "french fries",
+            "ketchup"
+        ],
+        "price": 445,
+        "course": "snacks corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Haile Special Burger",
+        "ingredients": [
+            "ground beef",
+            "onion",
+            "garlic",
+            "leek",
+            "egg",
+            "bread crumps",
+            "soy sauce",
+            "salt",
+            "pepper",
+            "french fries",
+            "flat omelet and cheese",
+            "grilled both side until cooked stuffed in burger bread"
+        ],
+        "price": 595,
+        "course": "snacks corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Sodo Breeze Sandwich",
+        "ingredients": [
+            "juicy chicken or beef",
+            " sweet chili sauce",
+            "brown baguette bread",
+            "mustard",
+            "mayonnaise",
+            "french fries"
+        ],
+        "price": 650,
+        "course": "snacks corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Vegetable Wrap Sandwich",
+        "ingredients": [
+            "carrot",
+            "zucchini",
+            "french beans",
+            "spinach",
+            "mushroom",
+            "onion",
+            "garlic",
+            "tomato",
+            "tortilla bread",
+            "french fries"
+        ],
+        "price": 400,
+        "course": "snacks corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "BBQ Chicken Pizza",
+        "ingredients": [
+            "pizza sauce",
+            "mozzarella cheese",
+            "bbq chicken",
+            "tomato",
+            "green chili",
+            "olive fruit",
+            "oregano"
+        ],
+        "price": 632,
+        "course": "pizza corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Beef Lovers Pizza",
+        "ingredients": [
+            "pizza sauce",
+            "mozzarella cheese",
+            "minced cooked beef",
+            "smoked sliced beef",
+            "tomato",
+            "green chili",
+            "olive fruit",
+            "oregano"
+        ],
+        "price": 595,
+        "course": "pizza corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Haile Special Pizza",
+        "ingredients": [
+            "pizza sauce",
+            "mozzarella cheese",
+            "boiled sliced egg",
+            "tuna",
+            "bbq chicken",
+            "minced cooked beef",
+            "tomato",
+            "green chili",
+            "olive fruit",
+            "oregano"
+        ],
+        "price": 660,
+        "course": "pizza corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Margarita Pizza",
+        "ingredients": [
+            "pizza sauce",
+            "mozzarella cheese",
+            "oregano"
+        ],
+        "price": 570,
+        "course": "pizza corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Pizza Ala Tuna",
+        "ingredients": [
+            "pizza sauce",
+            "mozzarella cheese",
+            "tuna",
+            "tomato",
+            "green chili",
+            "olive fruit",
+            "oregano"
+        ],
+        "price": 655,
+        "course": "pizza corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Vegetable Pizza",
+        "ingredients": [
+            "pizza sauce",
+            "mozzarella cheese",
+            "french beans",
+            "zucchini",
+            "carrot",
+            "tomato",
+            "green chili",
+            "olive fruit",
+            "oregano"
+        ],
+        "price": 450,
+        "course": "pizza corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Chikina Tibs",
+        "ingredients": [
+            "marinated beef fillate meat",
+            "garlic",
+            "awaze(hot pepper)",
+            "cooked untill tender",
+            "onion",
+            "cardamom",
+            "niter kibbeh(clarified butter)",
+            "injera"
+        ],
+        "price": 645,
+        "course": "ethiopian traditional food",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Doro Wot",
+        "ingredients": [
+            "spicy slow-cooked ethiopian chicken stew with finely chopped onion",
+            "garlic",
+            "berbere (hot chili powder)",
+            "niter kibbeh(clarified butter)",
+            "cardamom",
+            "boiled egg",
+            "ayib (homemade fresh cheese)",
+            "injera"
+        ],
+        "price": 725,
+        "course": "ethiopian traditional food",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Fasting Family Agelgel",
+        "ingredients": [
+            "assortment of ethiopian fasting foods(vegetarian foods)",
+            "served on one mesob plate (a woven round wicker basket)",
+            "shiro wot",
+            "mesir wot",
+            "azifa",
+            "suf fitfit",
+            "ater kik wot",
+            "senig karia",
+            "timatim lebleb",
+            "alicha atekilt wot",
+            "injera"
+        ],
+        "price": 1390,
+        "course": "ethiopian traditional food",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Fasting Gomen",
+        "ingredients": [
+            "boiled collard greens",
+            "niter kibbeh(clarified butter)",
+            "garlic",
+            "chili powder",
+            "cardamom",
+            "kocho(flat bread made from grated inset pulp)",
+            "ayib (homemade fresh cheese)"
+        ],
+        "price": 250,
+        "course": "ethiopian traditional food",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Fasting Non_Fasting Family Agelgel",
+        "ingredients": [
+            "assortment of ethiopian traditional foods",
+            "served on one mesob plate (a woven round wicker basket)",
+            "doro wot",
+            "chikina tibs",
+            "gomen besiga",
+            "kitfo",
+            "ayib (homemade fresh cheese)",
+            "injera",
+            "kocho(flat bread made from grated inset pulp)"
+        ],
+        "price": 2400,
+        "course": "ethiopian traditional food",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Goat Tibs",
+        "ingredients": [
+            "marinated goat meat",
+            "garlic",
+            "awaze(hot pepper)",
+            "cooked untill tender",
+            "onion",
+            "cardamom",
+            "niter kibbeh(clarified butter)",
+            "injera"
+        ],
+        "price": 775,
+        "course": "ethiopian traditional food",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Gomen Besiga",
+        "ingredients": [
+            "tender beef lion cut in to cube",
+            "collard greens",
+            "garlic",
+            "onion",
+            "green pepper",
+            "niter kibbeh(clarified butter)",
+            "cardamom",
+            "injera"
+        ],
+        "price": 480,
+        "course": "ethiopian traditional food",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Kitfo",
+        "ingredients": [
+            "spicy minced row beef",
+            "niter kibbeh(clarified butter)",
+            "garlic",
+            "chili powder",
+            "cardamom",
+            "kocho(flat bread made from grated inset pulp)",
+            "ayib (homemade fresh cheese)"
+        ],
+        "price": 810,
+        "course": "ethiopian traditional food",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Lamb Tibs",
+        "ingredients": [
+            "marinated lamb meat",
+            "garlic",
+            "awaze(hot pepper)",
+            "cooked untill tender",
+            "onion",
+            "cardamom",
+            "niter kibbeh(clarified butter)",
+            "injera"
+        ],
+        "price": 775,
+        "course": "ethiopian traditional food",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Shiro",
+        "ingredients": [
+            "mild thick pea stew enhanced by ethiopian seasonings",
+            "injera",
+            "garlic",
+            "green chili"
+        ],
+        "price": 300,
+        "course": "ethiopian traditional food",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Bula Genfo",
+        "ingredients": [
+            "starchy white powder made from inset plant",
+            "cooked like stiff porridge",
+            "spicy butter sauce",
+            "niter kibbeh(clarified butter)",
+            "garlic",
+            "chili powder",
+            "cardamom"
+        ],
+        "price": 215,
+        "course": "breakfast",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Continental Breakfast",
+        "ingredients": [
+            "sliced toasted bread",
+            "assortment of jams",
+            "honey",
+            "table butter",
+            "peanut butter",
+            "fresh fruit juice"
+        ],
+        "price": 455,
+        "course": "breakfast",
+        "order_count": 0
+    },
+    {
+        "dish_name": "French toast",
+        "ingredients": [
+            "sliced loaf bread",
+            "beaten seasoned egg",
+            "deep fried in hot oil",
+            "honey"
+        ],
+        "price": 255,
+        "course": "breakfast",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Oats With Honey",
+        "ingredients": [
+            "boiled oats meal",
+            "milk",
+            "honey"
+        ],
+        "price": 265,
+        "course": "breakfast",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Omelet",
+        "ingredients": [
+            "beaten egg cooked with onion",
+            "tomato",
+            "green chili",
+            "sliced toasted bread"
+        ],
+        "price": 280,
+        "course": "breakfast",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Scramble Egg",
+        "ingredients": [
+            "beaten egg cooked with onion",
+            "onion",
+            "tomato",
+            "green chili",
+            "sliced toasted bread"
+        ],
+        "price": 240,
+        "course": "breakfast",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Tibs Firfir",
+        "ingredients": [
+            "stir fried beef cut in to strip",
+            "shredded pieces of injera",
+            "spiced hot sauce",
+            "onion",
+            "garlic",
+            "berbere (hot chili powder)"
+        ],
+        "price": 445,
+        "course": "breakfast",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Fasting Firfir",
+        "ingredients": [
+            "shredded pieces of injera",
+            "spiced hot sauce",
+            "onion",
+            "garlic",
+            "berbere (hot chili powder)"
+        ],
+        "price": 320,
+        "course": "breakfast",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Chechebsa",
+        "ingredients": [
+            "flat bread made from wheat flour shredded in to pieces",
+            "mild butter sauce",
+            "honey"
+        ],
+        "price": 255,
+        "course": "breakfast",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Chicken Nugget",
+        "ingredients": [
+            "breaded and crispy fried chicken breast cut in to cube",
+            "french fries"
+        ],
+        "price": 560,
+        "course": "kid's corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Beef Fried Rice",
+        "ingredients": [
+            "stir fried minced beef with rice",
+            "egg",
+            "vegetables",
+            "carrot",
+            "zucchini",
+            "french beans",
+            "onion",
+            "garlic"
+        ],
+        "price": 445,
+        "course": "kid's corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Stir Fried Vegetable",
+        "ingredients": [
+            "steam cooked seasonal fresh vegetables",
+            "carrot",
+            "zucchini",
+            "french beans",
+            "spinach",
+            "mushroom",
+            "onion",
+            "garlic",
+            "tomato"
+        ],
+        "price": 300,
+        "course": "vegetarian corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Vegetable Biryani",
+        "ingredients": [
+            "spicy and flavorful indian dish",
+            "basmati rice",
+            "carrot",
+            "zucchini",
+            "french beans",
+            "dry chili flakes",
+            "turmeric",
+            "coriander",
+            "indian chapatti bread",
+            "onion",
+            "garlic"
+        ],
+        "price": 300,
+        "course": "vegetarian corner",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Fasting Gomen",
+        "ingredients": [
+            "boiled collard greens",
+            "niter kibbeh(clarified butter)",
+            "garlic",
+            "chili powder",
+            "cardamom",
+            "kocho(flat bread made from grated inset pulp)",
+            "ayib (homemade fresh cheese)"
+        ],
+        "price": 300,
+        "course": "ethiopian traditional food",
+        "order_count": 0
+    },
+    {
+        "dish_name": "Vegetables Rice",
+        "ingredients": [
+            "plain boiled basmati rice sauteed with seasonal fresh vegetables",
+            "carrot",
+            "zucchini",
+            "french beans",
+            "spinach",
+            "mushroom",
+            "onion",
+            "garlic",
+            "tomato"
+        ],
+        "price": 300,
+        "course": "vegetarian corner",
+        "order_count": 0
+    }
+]

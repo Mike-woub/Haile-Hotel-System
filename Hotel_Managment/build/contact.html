@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact Us - Haile Hotel Wolaita</title>
+    <style> 
+        body {
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/hh2.jpg);
+            background-repeat: no-repeat; 
+            background-size: cover;
+        }
+        .section-content { 
+            position: relative; 
+            z-index: 1; 
+            color: white;
+            padding: 2rem;
+        }
+        h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 1rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .contact-form button {
+            padding: 1rem;
+            background-color: #f59e0b; /* Orange color */
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #d97706; /* Darker shade of orange */
+        }
+    </style>
+</head>
+<body>
+    <header class="w-full sticky bg-slate-50 dark:bg-slate-700 top-0 z-10">
+        <section class="max-w-4xl mx-auto flex flex-row justify-between items-center p-4">
+            <div class="flex flex-row items-center gap-3">
+                <img src="img/Haile-Hotel-Wolaita-scaled.jpg" class="w-10 h-10 rounded-3xl" alt="">
+                <h1 class="text-3xl font-bold dark:text-white">Haile Hotel Wolaita</h1>
+            </div>
+            <nav class="hidden md:flex flex-row gap-8 text-2xl dark:text-white">
+                <ul class="flex flex-row space-x-8 cursor-pointer">
+                    <li class="hover:text-orange-400 transition-colors"><a href="index.html">Home</a></li>
+                    <li class="hover:text-orange-400 transition-colors"><a href="about.html">About</a></li>
+                    <li class="hover:text-orange-400 transition-colors"><a href="gallery.html">Gallery</a></li>
+                    <li class="hover:text-orange-400 transition-colors"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer">&#9776;</button>
+        </section>
+    </header>
+    
+    <main>
+        <section class="section-content">
+            <h1 class="text-4xl mb-6">Contact Us</h1>
+            <p class="text-lg text-center mb-4">We'd love to hear from you! Please fill out the form below or reach us at our contact information.</p>
+            <div class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </div>
+            <div class="mt-8 text-center">
+                <h2 class="text-2xl">Contact Information</h2>
+                <p>Email: <a href="mailto:HaileHotel@gmail.com">HaileHotel@gmail.com</a></p>
+                <p>Phone: <a href="tel:+1555555555">(555) 555-5555</a></p>
+                <p>Address: Wolaita Sodo, Around Ajip, 12345-5555</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-700 text-white text-xl" id="footer">
+        <section class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between">
+            <address>
+                <h2>Haile Hotel and Resorts.</h2>
+                Wolaita Sodo<br>
+                Around Ajip, 12345-5555<br>
+                Email: <a href="mailto:HaileHotel@gmail.com">HaileHotel@gmail.com</a><br>
+                Phone: <a href="tel:+1555555555">(555) 555-5555</a>
+            </address>
+            <nav class="hidden md:flex flex-col gap-2" aria-label="footer">
+                <a href="index.html" class="hover:opacity-90">Home</a>
+                <a href="about.html" class="hover:opacity-90">About</a>
+                <a href="gallery.html" class="hover:opacity-90">Gallery</a>
+                <a href="contact.html" class="hover:opacity-90">Contact Us</a>
+            </nav>
+            <div class="flex flex-col sm:gap-2">
+                <p class="text-right">Copyright &copy; <span id="year">2024</span></p>
+                <p class="text-right">All Rights Reserved</p>
+            </div>
+        </section>
+    </footer>
+
+    <script>
+        // Prevent going back to the previous page using the back button
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, window.location.href);
+            window.onload = function() {
+                window.history.pushState(null, null, window.location.href);
+                window.onpopstate = function() {
+                    window.history.pushState(null, null, window.location.href);
+                };
+            };
+        }
+    </script>
+</body>
+</html>

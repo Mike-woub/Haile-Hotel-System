@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gallery - Haile Hotel Wolaita</title>
+    <style> 
+        body {
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/hh2.jpg);
+            background-repeat: no-repeat; 
+            background-size: cover;
+        }
+        .section-content { 
+            position: relative; 
+            z-index: 1; 
+            color: white;
+            padding: 2rem;
+        }
+        h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+            padding: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 1rem;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header class="w-full sticky bg-slate-50 dark:bg-slate-700 top-0 z-10">
+        <section class="max-w-4xl mx-auto flex flex-row justify-between items-center p-4">
+            <div class="flex flex-row items-center gap-3">
+                <img src="img/Haile-Hotel-Wolaita-scaled.jpg" class="w-10 h-10 rounded-3xl" alt="">
+                <h1 class="text-3xl font-bold dark:text-white">Haile Hotel Wolaita</h1>
+            </div>
+            <nav class="hidden md:flex flex-row gap-8 text-2xl dark:text-white">
+                <ul class="flex flex-row space-x-8 cursor-pointer">
+                    <li class="hover:text-orange-400 transition-colors"><a href="index.html">Home</a></li>
+                    <li class="hover:text-orange-400 transition-colors"><a href="about.html">About</a></li>
+                    <li class="hover:text-orange-400 transition-colors"><a href="gallery.html">Gallery</a></li>
+                    <li class="hover:text-orange-400 transition-colors"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer">&#9776;</button>
+        </section>
+    </header>
+    
+    <main>
+        <section class="section-content min-h-screen">
+            <h1 class="text-4xl mb-6">Gallery</h1>
+            <div class="gallery">
+                <img src="img/f1.jpg" alt="Destination 1">
+                <img src="img/hw.jpg" alt="Destination 2">
+                <img src="img/bea.jpg" alt="Destination 3">
+                <img src="img/beau.jpg" alt="Destination 4">
+                <img src="img/beauty.jpg" alt="Destination 5">
+                <img src="img/bed.jpg" alt="Destination 6">
+                <img src="img/f1.jpg" alt="Destination 7">
+                <img src="img/room1.jpg" alt="Destination 8">
+                <img src="img/room2.jpg" alt="Destination 8">
+                <img src="img/room3.jpg" alt="Destination 8">
+                <img src="img/f.jpg" alt="Destination 8">
+                <img src="img/std.jpg" alt="Destination 8">
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-700 text-white text-xl" id="footer">
+        <section class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between">
+            <address>
+                <h2>Haile Hotel and Resorts.</h2>
+                Wolaita Sodo<br>
+                Around Ajip, 12345-5555<br>
+                Email: <a href="mailto:HaileHotel@gmail.com">HaileHotel@gmail.com</a><br>
+                Phone: <a href="tel:+1555555555">(555) 555-5555</a>
+            </address>
+            <nav class="hidden md:flex flex-col gap-2" aria-label="footer">
+                <a href="index.html" class="hover:opacity-90">Home</a>
+                <a href="about.html" class="hover:opacity-90">About</a>
+                <a href="contact.html" class="hover:opacity-90">Contact Us</a>
+            </nav>
+            <div class="flex flex-col sm:gap-2">
+                <p class="text-right">Copyright &copy; <span id="year">2024</span></p>
+                <p class="text-right">All Rights Reserved</p>
+            </div>
+        </section>
+    </footer>
+
+    <script>
+        // Prevent going back to the previous page using the back button
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, window.location.href);
+            window.onload = function() {
+                window.history.pushState(null, null, window.location.href);
+                window.onpopstate = function() {
+                    window.history.pushState(null, null, window.location.href);
+                };
+            };
+        }
+    </script>
+</body>
+</html>
